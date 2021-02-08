@@ -4,5 +4,12 @@
 
 img {
   max-width: 100%;
+  /* min-width: 100px; */
   height: auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(5rem, 15rem));
+  grid-gap: 2rem;
 }
